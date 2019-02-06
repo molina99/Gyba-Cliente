@@ -15,6 +15,10 @@ const routes: Routes = [
             { path: 'bs-element', loadChildren: './bs-element/bs-element.module#BsElementModule' },
             { path: 'grid', loadChildren: './grid/grid.module#GridModule' },
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
+            { path: 'books', loadChildren: './book-page/book-page.module#BookPageModule' },
+            { path: 'book_copies', loadChildren: './book_copies-page/book_copies-page.module#BookCopyPageModule' },
+            { path: 'sanction-page', loadChildren: './sanction-page/sanction-page.module#SanctionPageModule' },
+            { path: 'reservation-page', loadChildren: './reservation-page/reservation-page.module#ReservationPageModule' },
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' }
         ]
     }
